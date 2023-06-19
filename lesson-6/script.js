@@ -4,6 +4,7 @@
 //     let uchxona = ((son % 1000) - ikkixona - birxona).toFixed();
 //     let tortxona = ((son % 10000) - uchxona - ikkixona - birxona).toFixed();
 //     let beshxona = ((son % 100000) - tortxona - uchxona - ikkixona - birxona).toFixed();
+//     let oltixona = ((son % 1000000) - beshxona - tortxona - uchxona - ikkixona - birxona).toFixed();
 //     if (ikkixona == 0) ikkixona = '';
 //     else ikkixona /= 10;
 //     if (uchxona == 0) uchxona = '';
@@ -12,8 +13,10 @@
 //     else tortxona /= 1000;
 //     if (beshxona == 0) beshxona = '';
 //     else beshxona /= 10000;
+//     if (oltixona == 0) oltixona = '';
+//     else oltixona /= 100000;
 //     // return `${birxona}  ${ikkixona/10}  ${uchxona/100}  ${tortxona/1000}  ${beshxona/10000}`
-//     return +`${birxona}${ikkixona}${uchxona}${tortxona}${beshxona}`
+//     return +`${birxona}${ikkixona}${uchxona}${tortxona}${beshxona}${oltixona}`
 // }
 // console.log(abc());
 
@@ -31,4 +34,4 @@
 //     if (one == two) return true;
 //     else if (one != two) return false;
 // }
-// console.log(check(11111));
+// console.log(check());
