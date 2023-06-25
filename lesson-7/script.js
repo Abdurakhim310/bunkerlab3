@@ -1,16 +1,15 @@
 // let restrangle = {
 //     width : 200,
 //     height : 300,
+//     getPerimeter: function(a,b){
+//         return 2*(a+b)
+//     },
+//     getArea: function (a,b){
+//         return a*b
+//     }
 // }
-// function getPerimeter(a,b){
-//     return 2*(a+b)
-// }
-// function getArea(a,b){
-//     return a*b
-// }
-// console.log(`P = ${getPerimeter(restrangle.width,restrangle.height)}
-// S = ${getArea(restrangle.width,restrangle.height)}`);
-
+// console.log(`P = ${restrangle.getPerimeter(restrangle.width,restrangle.height)}
+// S = ${restrangle.getArea(restrangle.width,restrangle.height)}`);
 
 
 
@@ -31,11 +30,11 @@
 
 
 
-let triangle = {
-    a: 10,
-    height: 15
-}
-function getArea2(a,b){
-    return a*b/2
-}
-console.log(`S = ${getArea2(triangle.a,triangle.height)}`);
+// let triangle = {
+//     a: 10,
+//     height: 15
+// }
+// function getArea2(a,b){
+//     return a*b/2
+// }
+// console.log(`S = ${getArea2(triangle.a,triangle.height)}`);
